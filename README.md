@@ -11,7 +11,7 @@ An interactive chatbot application that leverages Hugging Face's **Qwen3-4B mode
 
 ## Setup Instructions
 -----------------------------------
- 1. Clone the Repository
+ 1. ####Clone the Repository
 git clone https://github.com/pallavi-1609/Chatbot.git
 cd Chatbot
 --------------------------------------------------------
