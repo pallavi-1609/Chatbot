@@ -11,37 +11,32 @@ An interactive chatbot application that leverages Hugging Face's **Qwen3-4B mode
 
 ## Setup Instructions
 -----------------------------------
- 1. ####Clone the Repository
+ #1. Clone the Repository
 git clone https://github.com/pallavi-1609/Chatbot.git
 cd Chatbot
 --------------------------------------------------------
-####2. Install Required Libraries
+#2. Install Required Libraries
       pip install -r requirements.txt
 ---------------------------------------------------
-#### 3. Hugging Face Token
+# 3. Hugging Face Token
 Create a .env file in the project root:
 #### HUGGINGFACE_TOKEN=your_hf_token_here
 Ensure .env is listed in .gitignore to keep it private.
 -----------------------------------------------------
-4. Run the Notebook
+# 4. Run the Notebook
 Open Chatbot.ipynb in Google Colab or Jupyter Notebook.
 
 Execute all cells.
 --------------------------------------------------------
- Important Notes
+# Important Notes
 Do NOT expose your Hugging Face Token in public repositories.
 For Colab users, manually set the token in the notebook using:
 import os
 os.environ['HUGGINGFACE_TOKEN'] = "your_hf_token_here"
 ----------------------------------------------------------
-##  Demo
+#  Demo
 * Gradio link -https://8265d2d86550704120.gradio.live/
 * <img width="940" height="733" alt="image" src="https://github.com/user-attachments/assets/8669afea-3ad7-479e-8c4d-f4d499d4effd" />
-
-
 --------------------------------------------------------------
-##  License
+#  License
 This project is licensed under the MIT License.
-
-
-
